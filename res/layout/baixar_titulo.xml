@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView
+   		android:id="@+id/baixar_titulo_tvTipoMovimento"
+   		android:hint="@string/nenhum_contato"   				
+   		style="@style/label_padrao"/>
+    <TextView 
+   		android:id="@+id/baixar_titulo_tvContato"
+   		style="@style/label_view"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/val_previsto"   				
+   		style="@style/label_padrao"/>
+    <TextView 
+   		android:id="@+id/baixar_titulo_tvValPrevisto"
+   		style="@style/label_view"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador_grupo"></include>
+   	<TextView 
+   		android:id="@+id/baixar_titulo_tvValorBaixa"   				
+   		style="@style/label_padrao"/>
+	<include 
+		layout="@layout/view_box_valores"
+		android:id="@+id/baixar_titulo_val_baixa"/>	
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_conta"></include>
+   	<include layout="@layout/separador"></include>
+	<TextView 
+   		android:id="@+id/baixar_titulo_tvDataMovimento"
+   		android:text="@string/data_transacao"   				
+   		style="@style/label_padrao"/>
+	<Button 
+		android:id="@+id/baixar_titulo_btn_dt_movimento"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"/>   		
+   	<include layout="@layout/separador"></include>
+   	   	   	  	  	   	
+</LinearLayout> 

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/contato_linear_2"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/contato_tvNome"
+   		android:text="@string/nome"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/contato_etNome"
+   		android:hint="@string/nome"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_tvSobrenome"
+   		android:text="@string/sobrenome"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/contato_etSobrenome"
+   		android:hint="@string/nome"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_tipo_contato"></include>   		       			   				
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/contato_tvTelefone"
+   		android:text="@string/telefone"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/contato_etTelefone"
+   		android:inputType="phone"
+   		android:hint="@string/telefone"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:clickable="true"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_tvEmail"
+   		android:text="@string/email"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/contato_etEmail"
+   		android:hint="@string/email"
+   		android:inputType="textEmailAddress"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout>      
+   

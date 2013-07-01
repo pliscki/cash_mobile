@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">  	
+   	<TextView 
+   		android:id="@+id/edit_tvLogin"
+   		android:text="@string/login"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/edit_etLogin"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:hint="@string/login"
+   		android:singleLine="true"/>   		
+   	<TextView 
+   		android:id="@+id/edit_tvSenha"
+   		android:text="@string/senha"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/edit_etSenha"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:inputType="textPassword"
+   		android:hint="@string/senha"
+   		android:singleLine="true"/>    
+</LinearLayout>

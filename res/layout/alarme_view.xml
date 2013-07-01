@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/alarme_view_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/alarme_view_descricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/alarme_view_tvDescricao"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/alarme_view_periodoAtividade"
+   		android:text="@string/periodo_alarme_ativo"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/alarme_view_tvPeriodoAtividade"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/alarme_view_intervalo"
+   		android:text="@string/intervalo_notificacoes"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/alarme_view_tvIntervalo"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:text="@string/dias_antes_vencimento"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/alarme_view_tvDias_antes_vencimento"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/alarme_view_ativo"
+   		android:text="@string/ativo"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/alarme_view_tvAtivo"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout> 

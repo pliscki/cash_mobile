@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/categoria_linear_2"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/categoria_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/categoria_etDescricao"
+   		android:hint="@string/categoria"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	<CheckBox 
+   		android:id="@+id/categoria_cbPagamentoAuto"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="@string/pagamento_automatico"
+   		android:textSize="20dip"/>
+   	<include layout="@layout/separador"></include>    	  	  	   	
+</LinearLayout>      
+   

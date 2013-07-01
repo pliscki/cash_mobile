@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>    
+    <string-array name="intervalo_periodo">
+        <item>Dia</item>
+        <item>Semana</item>
+        <item>Mês</item>
+        <item>Ano</item>
+    </string-array>
+    <string-array name="ordem_previsto">
+        <item>Vencimento</item>
+        <item>Contato</item>
+        <item>Descrição</item>
+        <item>Emissão</item>
+        <item>Conta</item>
+    </string-array>
+    <string-array name="ordem_realizado">
+        <item>Vencimento</item>
+        <item>Contato</item>
+        <item>Descrição</item>
+        <item>Conta</item>
+    </string-array>
+    <string-array name="acoes_previsto">
+        <item>Baixar</item>
+        <item>Detalhar</item>
+        <item>Editar</item>
+        <item>Deletar</item>
+        <item>Duplicar</item>
+    </string-array>
+    <string-array name="acoes_realizado">
+        <item>Detalhar</item>
+        <item>Editar</item>
+        <item>Deletar</item>
+        <item>Duplicar</item>
+    </string-array>
+    <string-array name="tipos_periodo">
+    	<item>Ano</item>
+        <item>Mês</item>
+        <item>Personalizado</item>
+    </string-array>
+     <string-array name="agrupar_por">
+    	<item>Conta</item>
+        <item>Categoria</item>
+        <item>Contato</item>
+        <item>Tipo de Contato</item>
+    </string-array>
+</resources>

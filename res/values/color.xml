@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 <color name="laranja">#ff5500</color>
+	 <color name="branco">#ffffff</color>
+	 <color name="transparente">#00000000</color>
+	 <color name="date_color">#999999</color>
+	 <color name="preto">#000000</color>
+	 <color name="cinza">#999999</color>
+	 <color name="azul">#0066cc</color>
+	 <color name="dourado">#e6b121</color>
+	 <color name="azul_escuro">#99FFFF</color>
+	 <color name="articlecolor">#3399FF</color> 
+	 <color name="article_title">#3399FF</color> 
+	 <color name="cachecolor">#8ad0e8</color>
+	 <color name="musgo">#20170E</color>
+	 <color name="cinza_escuro">#2D2824</color>
+	 <color name="bege">#C6A664</color>
+	 <color name="salmao">#AC735F</color>
+	 <color name="marrom_claro">#AD4604</color>
+	 <color name="amarelo_claro">#FFFF8C</color>
+	 <color name="gelo">#BDEBFF</color>
+	 <color name="verde_escuro_1">#00766D</color>
+	 <color name="verde_escuro_2">#2A7E65</color>
+	 <color name="verde_claro_1">#05B273</color>
+	 <color name="verde_claro_2">#C3FF81</color>
+	 <color name="verde_claro_3">#30D37D</color>
+	 <color name="azul_claro_1">#5B8EA4</color>
+	 <color name="azul_claro_2">#AFC7E8</color>
+	 <color name="azul_claro_3">#6BA0B7</color>
+	 <color name="azul_escuro_2">#0F434B</color>
+</resources>

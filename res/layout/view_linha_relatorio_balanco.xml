@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rlt_balanco_linear"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:clickable="false"
+  android:focusable="false">
+    <TextView 
+    	android:id="@+id/rlt_balanco_tvDescricao"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:singleLine="true"/>
+    	<TextView 
+    	android:id="@+id/rlt_balanco_tvValor"
+    	android:layout_width="0dip"
+    	android:layout_height="wrap_content"
+    	android:layout_weight="1"
+    	android:singleLine="true"
+    	android:gravity="right"/>
+</LinearLayout>

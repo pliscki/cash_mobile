@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:descendantFocusability="afterDescendants"
+    android:background="@android:color/darker_gray">
+     
+
+    <!-- Outer layout defines the entire search bar at the top of the screen -->
+    <LinearLayout    
+        android:id="@+id/search_plate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="4dip"
+        android:paddingRight="10dip"
+        android:paddingTop="6dip"
+        android:paddingBottom="0dip"
+        >
+
+        <!-- Inner layout contains the app icon, button(s) and EditText -->
+        <LinearLayout
+            android:id="@+id/search_edit_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            
+			<ImageButton 
+				android:id="@+id/btn_criar_item"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/create_contact"
+				android:layout_marginRight="7dip"
+				android:layout_gravity="center_vertical"/>               
+              
+            <view
+                class="projetofinal.ftec.utils.SearchEditText"
+                android:id="@+id/search_src_text"
+                android:layout_height="wrap_content"
+                android:layout_width="0dip"
+                android:layout_weight="1.0"
+                android:layout_marginLeft="4dip"
+                android:layout_marginBottom="0dip"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:inputType="textNoSuggestions"
+                android:imeOptions="flagNoExtractUi"                
+                android:freezesText="true"                
+                android:drawableRight="@drawable/magnifying_glass"/>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>  
+

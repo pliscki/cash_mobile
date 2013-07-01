@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/contato_view_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/contato_view_nome"
+   		android:text="@string/nome"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/contato_view_tvNome"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_view_sobrenome"
+   		android:text="@string/sobrenome"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/contato_view_tvSobrenome"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_view_contatotipo"
+   		android:text="@string/contato_tipo"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/contato_view_tvContatotipo"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_view_telefone"
+   		android:text="@string/telefone"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/contato_view_tvTelefone"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/contato_view_email"
+   		android:text="@string/email"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/contato_view_tvEmail"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout> 

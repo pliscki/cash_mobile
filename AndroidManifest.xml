@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="projetofinal.ftec"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name=".gui.MainMenu"
+        		  android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".gui.UsuarioEditar">
+        </activity>
+        <activity android:name=".gui.DialogsAlerta"></activity>
+        <activity android:name=".gui.ContaEditar"></activity>
+        <activity android:name=".gui.ContaPesquisar"
+            	  android:configChanges="orientation"></activity>
+        <activity android:name=".gui.CategoriaPesquisar"></activity>
+        <activity android:name=".gui.CategoriaEditar"></activity>
+        <activity android:name=".gui.ContaPesquisar"></activity>
+        <activity android:name=".gui.UsuarioPesquisar"></activity>
+        <activity android:name=".gui.ContaView"></activity>
+        <activity android:name=".gui.UsuarioView"></activity>
+        <activity android:name=".gui.CategoriaView"></activity>
+        <activity android:name=".gui.ContatoTipoEditar"></activity>
+        <activity android:name=".gui.ContatoTipoPesquisar"></activity>
+        <activity android:name=".gui.ContatoTipoView"></activity>
+        <activity android:name=".gui.ContatoEditar"></activity>
+        <activity android:name=".gui.ContatoPesquisar"></activity>
+        <activity android:name=".gui.ContatoView"></activity>
+        <activity android:name=".gui.AlarmeEditar"></activity>
+        <activity android:name=".gui.AlarmePesquisar"></activity>
+        <activity android:name=".gui.AlarmeView"></activity>
+        <activity android:name=".gui.PrevistoPesqContainer"></activity>
+        <activity android:name=".gui.PrevistoPesquisar"></activity>
+        <activity android:name=".gui.PrevistoEditar"></activity>
+        <activity android:name=".gui.PrevistoFiltrar"></activity>
+        <activity android:name=".gui.RealizadoEditar"></activity>
+        <activity android:name=".gui.RealizadoFiltrar"></activity>
+        <activity android:name=".gui.RealizadoPesqContainer"></activity>
+        <activity android:name=".gui.RealizadoPesquisar"></activity>
+        <activity android:name=".gui.RealizadoView"></activity>
+        <activity android:name=".gui.PrevistoView"></activity>
+        <activity android:name=".gui.BaixarTitulo"></activity>
+        <activity android:name=".gui.MenuProcessos"></activity>
+        <activity android:name=".gui.MenuCadastros"></activity>
+        <activity android:name=".gui.MenuRelatorios"></activity>
+        <activity android:name=".gui.TransferenciaContas"></activity>
+        <activity android:name=".gui.RelatorioBalanco"></activity>
+        <service android:name=".services.MonitorContas">
+            <intent-filter>
+                <action android:name="MONITOR_PREVISTO"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".gui.RltGeralContainer"></activity>
+        <activity android:name=".gui.RelatorioGeral"></activity>
+
+
+    </application>
+</manifest>

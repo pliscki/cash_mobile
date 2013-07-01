@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">Cash Mobile</string>
+    <string name="hello">Bem-vindo</string>	
+    
+    <!-- USUARIO -->
+    <string name="usuarios">Usuários</string>
+    <string name="usuario">Usuário</string>
+    <string name="login">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="nome_exibicao">Nome de Exibição</string>
+    <string name="login_automatico">Login Automático</string>
+    <string name="repetir_senha">Repetir Senha</string>
+    <string name="usuario_obrig">Usuário deve ser informado.</string>
+    <string name="senha_obrig">Senha deve ser informada.</string>
+    <string name="usuario_duplicado">Já existe um usuário com este login.</string>
+    <string name="falha_login">Usuário ou senha informado incorretamente.</string>
+    <string name="repetir_senha_obrig">Repita a senha.</string>
+    <string name="senha_repetida_errada">Senha repetida não confere.</string>
+    <string name="cadastrar_usuario">Cadastrar Usuário</string>
+    <string name="usuario_login">Efetue Login</string>
+    <string name="cadastro_usuario">Cadastro Usuario</string>
+    <string name="usuario_invalido">Usuário informado inválido.</string>
+    <string name="redigitar_senha">Redigite a senha</string>
+    
+    <!-- CONTAS -->
+    <string name="contas">Contas</string>
+    <string name="conta">Conta</string>
+    <string name="conta_duplicada">Já existe uma conta cadastrada com esta descrição.</string>
+    <string name="nova_conta">Nova Conta</string>
+    <string name="cadastro_contas">Cadastro de Contas</string>
+	<string name="consultar_contas">Consultar Contas</string>
+	<string name="pesquisar_conta">Pesquisar Contas</string>
+	<string name="editar_conta">Editar Conta</string>
+	<string name="conta_obrig">Conta deve ser informada.</string>
+	<string name="conta_invalida">Conta informada inválida.</string>
+	<string name="selecione_conta">Selecione uma conta</string>
+	<string name="saldo_inicial">Saldo Inicial</string>
+	<string name="falha_criar_saldo_inicial">Não foi possível lançar saldo inicial.</string>
+	
+    <!-- CATEGORIAS -->
+    <string name="categorias">Categorias</string>
+    <string name="categoria">Categoria</string>
+    <string name="pagamento_automatico">Pagamento Automático</string>
+    <string name="categoria_duplicada">Já existe uma categoria cadastrada com esta descrição.</string>
+    <string name="nova_categoria">Nova Categoria</string>
+    <string name="consultar_categorias">Consultar Categorias</string>
+    <string name="pesquisar_categoria">Pesquisar Categorias</string>
+    <string name="cadastro_categorias">Cadastro de Categorias</string>
+    <string name="categoria_invalida">Categoria informada invalida.</string>
+    <string name="selecione_categoria">Selecione uma categoria</string>
+    
+    <!-- TIPOS DE CONTATOS -->
+    <string name="contato_tipos">Tipos de Contatos</string>
+    <string name="contato_tipo">Tipo de Contato</string>
+    <string name="contato_tipo_obrig">Tipo de contato deve ser informado.</string>
+    <string name="contato_tipo_invalido">Tipo de contato informado inválido.</string>
+    <string name="consultar_contato_tipo">Consultar Tipos de Contatos</string>
+    <string name="cadastro_contato_tipo">Cadastro de Tipos de Contato</string>
+	<string name="pesquisa_contato_tipo">Pesquisar Tipos de Contatos</string>
+    <string name="novo_contato_tipo">Novo Tipo de Contato</string>
+    <string name="editar_contato_tipo">Editar Tipo de Contato</string>
+    <string name="pesquisar_contato_tipo">Pesquisar Tipos de Contatos</string>
+    <string name="contato_tipo_duplicado">Já existe um tipo de contato cadastrado com esta descrição.</string>
+    <string name="selecione_contato_tipo">Selecione o tipo de contato</string>    
+    
+    <!-- CONTATOS -->    
+    <string name="contatos">Contatos</string>
+    <string name="contato">Contato</string>
+	<string name="nome">Nome</string>
+    <string name="sobrenome">Sobrenome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">E-mail</string>
+    <string name="contato_duplicado">Já existe um contato cadastrado com este nome.</string>
+    <string name="nome_obrig">Nome deve ser informado.</string>	    
+	<string name="consultar_contatos">Consultar Contatos</string>
+	<string name="cadastro_contato">Cadastro de Contatos</string>
+    <string name="editar_contato">Editar Contato</string>
+    <string name="novo_contato">Novo Contato</string>
+    <string name="pesquisar_contato">Pesquisar Contatos</string>
+    <string name="contato_invalido">Contato informado invalido.</string>
+    <string name="selecione_contato">Selecione um contato</string>
+    <string name="nenhum_contato">Nenhum contato</string>
+    
+    <!-- ALARMES -->
+    <string name="alarmes">Alarmes</string>
+    <string name="alarme">Alarme</string>
+    <string name="consultar_alarmes">Consultar Alarmes</string>
+    <string name="cadastro_alarmes">Cadastro de Alarmes</string>
+    <string name="editar_alarme">Editar Alarme</string>
+    <string name="novo_alarme">Novo Alarme</string>
+    <string name="pesquisar_alarme">Pesquisar Alarmes</string>
+    <string name="alarme_duplicado">Já existe um alarme cadastrado com esta descrição.</string>
+    <string name="hora_inicial_menor_final">Hora inicial do alarme deve ser menor que hora final.</string>
+    <string name="hora_inicial">Inicia às</string>
+    <string name="hora_final">Termina às</string>
+    <string name="intervalo_notificacoes">Intervalo das notificações</string>
+    <string name="minutos">Minutos</string>
+    <string name="intervalo_minutos">Intervalo em minutos</string>
+    <string name="ativo">Ativo</string>
+    <string name="intervalo_invalido">Intervalo informado invalido.</string>
+    <string name="periodo_alarme_ativo">Periodo de atividade do alarme</string>
+    <string name="alarme_invalido">Alarme informado invalido.</string>
+    <string name="selecione_alarme">Selecione um Alarme</string>
+    <string name="receber_notificacoes">Receber notificações</string>
+    <string name="quantidade_dias">Quantidade de dias</string>
+    <string name="dias">Dia(s)</string>
+    <string name="antes_vencimento">Antes do vencimento</string>
+    <string name="dias_antes_vencimento">Notificações de contas que vencerão em</string>
+    
+    <!-- PREVISTOS -->
+    <string name="val_previsto_invalido">Valor do lançamento previsto deve ser maior que zero.</string>
+    <string name="dt_vencimento_invalida">Data de vencimento deve ser maior ou igual a data de emissão.</string>
+    <string name="pagar_a">Pagar a</string>
+    <string name="receber_de">Receber de</string>
+    <string name="val_previsto">Valor Previsto</string>
+    <string name="hint_val_previsto">Informe o valor previsto</string>
+    <string name="vencimento">Vencimento</string>
+    <string name="emissao">Emissão</string>
+    <string name="repetir_previsto">Repetir nos próximos</string>
+    <string name="sem_repeticoes">Sem repetições</string>
+    <string name="receber">A Receber</string>
+    <string name="pagar">A Pagar</string>
+    <string name="previstos">Lançamentos Previstos</string>
+    <string name="lancar_previsto">Lancar Movimento Previsto</string>
+    <string name="editar_previsto">Editar Previsto</string>
+    <string name="selecionar_intervalo">Selecionar Intervalo</string>
+    <string name="filtro_vencimento_invalido">Filtro de data de vencimento invalido.</string>
+    <string name="filtro_emissao_invalido">Filtro de data de emissão invalido.</string>
+    <string name="venc_inicial_menor_final">Data de vencimento inicial deve ser menor ou igual a data de vencimento final.</string>
+    <string name="emis_inicial_menor_final">Data de emissão inicial deve ser menor ou igual a data de emissão final.</string>
+    <string name="baixar">Baixar</string>
+    <string name="consultar_previsto">Consultar Movimentos Previstos</string>
+    <string name="previsto_invalido">Movimento Previsto Inválido.</string>
+    <string name="tipo_movimento">Tipo de Movimento</string>
+    <string name="lancamento_previsto">Lançamento Previsto</string>
+    <string name="previsto_ja_baixado">Este registro ja foi baixado.</string>
+    <string name="valor_igual_previsto">Valor da baixa deve igual ao valor previsto.</string>
+    <string name="data_movimento_maior_que_vencimento">Data da baixa deve ser maior ou igual a data de vencimento.</string>
+    <string name="falha_baixar_titulo">Falha ao efetuar baixa do título.</string>
+    <string name="falha_atualizar_previsto">Falha ao atualizar baixa do título</string>
+    <string name="baixados">Baixados</string>
+    <string name="pendentes">Pendentes</string>
+    <string name="lancamento_previsto_ja_baixado">Este lançamento já foi baixado.</string>
+    <string name="notificacao_movimento_previsto">Lançamento(s) Previsto(s) prestes a vencer</string>
+    
+    
+    <!-- REALIZADOS -->
+    <string name="val_realizado_invalido">Valor do movimento realizado deve ser maior do que zero.</string>
+    <string name="data_movimento_obrig">Data do movimento realizado deve ser informada.</string>
+    <string name="lancar_realizado">Lancar Movimento Realizado</string>
+    <string name="consultar_realizado">Consultar Movimentos Realizados</string>
+    <string name="pago_a">Pago a</string>
+    <string name="recebido_de">Recebido de</string>
+    <string name="val_movimento">Valor da Transação</string>
+    <string name="data_transacao">Data da Transação</string>
+    <string name="hint_val_realizado">Informe o valor da transação</string> 
+    <string name="filtro_movimento_invalido">Filtro de data de transação inválido.</string>
+    <string name="mov_inicial_menor_final">Data de transação inicial deve ser menor ou igual a da de transação final.</string>
+    <string name="recebido">Recebido</string>
+    <string name="pago">Pago</string>
+    <string name="editar_realizado">Editar Movimento Realizado</string>
+    <string name="realizados">Lançamentos Realizados</string>
+    <string name="descricao_saldo_inicial">Saldo de abertura da Conta</string>
+    <string name="lancamento_realizado">Lançamento Realizado</string>
+    <string name="baixar_titulo">Baixar Título</string>
+    <string name="val_pago">Valor Pago</string>
+    <string name="val_recebido">Valor Recebido</string>
+    
+    <!-- TRANSFERENCIA ENTRE CONTAS -->
+    <string name="transferencia_entre_contas">Transferência entre Contas</string>
+    <string name="val_transferencia">Valor da Transferência</string>
+    <string name="data_transferencia">Data da Transferência</string>
+    <string name="da_conta">Transferir da Conta</string>
+    <string name="para_conta">Para Conta</string>
+    <string name="transferencias">Transferências</string>
+    <string name="falha_transferencia_contas">Falha ao efetuar transferência entre contas.</string>
+    <string name="conta_origem_diferente_conta_destino">Conta de origem deve ser diferente da conta de destino.</string>
+    
+    <!-- RELATORIOS -->
+    <string name="balanco">Balancete</string>
+    <string name="receitas">Receitas</string>
+    <string name="despesas">Despesas</string>
+    <string name="nao_definido">N/D</string>
+    <string name="relatorio_balanco">Relatório de Balancete</string>
+    <string name="relatorio_geral">Relatório Geral</string>
+    <string name="relatorio_geral_conta">Relatório Geral - Por Conta</string>
+    <string name="relatorio_geral_contato">Relatório Geral - Por Contato</string>
+    <string name="relatorio_geral_categoria">Relatório Geral - Por Categoria</string>
+    <string name="relatorio_geral_contato_tipo">Relatório Geral - Por Tipo de Contato</string>
+    <string name="agrupar_por">Agrupar Por</string>
+    
+    <!-- GENERICOS -->
+    <string name="descricao">Descrição</string>
+	<string name="descricao_obrig">Descrição deve ser informada.</string>    
+    <string name="inserir_descricao">Inserir Descrição</string>
+	<string name="vazio">Nenhum Item</string>
+	<string name="sigla_moeda">R$</string>
+	<string name="mes">Mês</string>
+	<string name="ano">Ano</string>
+	<string name="semana">Semana</string>
+	<string name="dia">Dia</string>
+	<string name="ordenar_por">Ordenar Por</string>
+	<string name="a_">à</string>
+	<string name="adicionar_filtros">Adicionar Filtros</string>
+	<string name="limpar_filtros">Limpar Filtros</string>
+	<string name="opcoes">Opções</string>
+	<string name="detalhes">Detalhes</string>
+	<string name="duplicar">Duplicar</string>
+	<string name="data">Data</string>
+	<string name="principal">Principal</string>
+	<string name="cadastros">Cadastros</string>
+	<string name="relatorios">Relatórios</string>
+	<string name="saldo">Saldo</string>
+	<string name="personalizado">Personalizado</string>
+	<string name="tipo_intervalo">Tipo de Intervalo</string>
+	<string name="clique_para_visualizar">Clique aqui para ver os detalhes</string>
+	<string name="total_geral">Total Geral</string>
+     
+    <!-- MENSAGENS CONFIRMACAO -->
+    <string name="msg_excluir_padrao">Confirma exclusão?</string>
+    <string name="msg_excluir_usuario">Confirma exclusão do usuário?</string>
+    <string name="msg_excluir_conta">Confirma exclusão da conta?</string>
+    <string name="msg_excluir_categoria">Confirma exclusão da categoria?</string>
+    <string name="msg_excluir_contato_tipo">Confirma exclusão do tipo de contato?</string>
+    <string name="msg_excluir_contato">Confirma exclusão do contato?</string>
+    <string name="msg_excluir_alarme">Confirma exclusão do alarme?</string>
+    <string name="msg_excluir_previsto">Confirma exclusão do lançamento previsto?</string>
+    <string name="msg_excluir_realizado">Confirma exclusão do lançamento realizado?</string>    
+    
+	<!-- MENSAGENS FALHA EXCLUSAO -->
+	<string name="msg_falha_excluir_alarme">Falha na exclusão. O Alarme está sendo usado.</string>
+	<string name="msg_falha_excluir_usuario">Falha na exclusão. O usuário está sendo usado pelo sistema.</string>
+	<string name="msg_falha_excluir_conta">Falha na exclusão. A conta está sendo usada pelo sistema.</string>
+	<string name="msg_falha_excluir_categoria">Falha na exclusão. A categoria está sendo usada pelo sistema.</string>
+	<string name="msg_falha_excluir_contato_tipo">Falha na exclusão. O tipo de contato está sendo usado pelo sistema.</string>
+	<string name="msg_falha_excluir_contato">Falha na exclusão. O contato está sendo usado pelo sistema.</string>
+	<string name="msg_falha_excluir_previsto">Falha na exclusão. O lançamento previsto está sendo usado pelo sistema.</string>
+	<string name="msg_falha_excluir_realizado">Falha na exclusão. O lançamento realizado está sendo usado pelo sistema.</string>        
+
+    <!-- BOTOES -->    
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">Ok</string>
+    <string name="criar">Novo</string>
+    <string name="editar">Editar</string>
+    <string name="deletar">Deletar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="ordenar">Ordenar</string>	
+    
+</resources>

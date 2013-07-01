@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/conta_view_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/conta_view_descricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/conta_view_tvDescricao"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout> 

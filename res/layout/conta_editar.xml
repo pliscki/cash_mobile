@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/conta_linear_2"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/conta_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/conta_etDescricao"
+   		android:hint="@string/conta"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	<LinearLayout 
+  		android:id="@+id/conta_linear_saldo_inicial"
+  		android:orientation="vertical"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+	   	<TextView 
+	   		android:text="@string/saldo_inicial"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"   		
+	   		style="@style/label_padrao"/>
+   		<LinearLayout 
+	  		android:orientation="horizontal"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content">
+	  		<TextView 
+	  			android:text="@string/sigla_moeda"
+	  			android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			style="@style/label_padrao"/>
+	  		<ImageButton 
+	  			android:id="@+id/conta_btn_mais_menos"
+	  			android:src="@drawable/ic_btn_round_plus"
+	  			android:layout_width="0dip"
+				android:layout_height="match_parent"
+				android:layout_weight="2"
+				android:layout_gravity="center_vertical"/>
+			<EditText 
+				android:id="@+id/conta_etSaldoInicial"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="7"
+				android:inputType="number"
+				android:gravity="right"/>
+			<TextView 
+				android:text="."
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/label_padrao"/>
+			<EditText 
+				android:id="@+id/conta_etSaldoInicial_decimal"
+				android:layout_width="0dip"
+				android:layout_height="wrap_content"
+				android:layout_weight="3"
+				android:inputType="number"
+				android:maxLength="2"/>					
+		</LinearLayout>		   		
+		    
+	</LinearLayout>   	  	  	   	
+</LinearLayout>      
+   

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/alarme_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/alarme_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/alarme_etDescricao"
+   		android:hint="@string/descricao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:id="@+id/alarme_tvHorainicial"
+   		android:text="@string/hora_inicial"   				
+   		style="@style/label_padrao"/>
+	<TimePicker 
+		android:id="@+id/alarme_tpHorainicial"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/alarme_tvHorafinal"
+   		android:text="@string/hora_final"   				
+   		style="@style/label_padrao"/>
+	<TimePicker 
+		android:id="@+id/alarme_tpHorafinal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/alarme_tvIntervalo"
+   		android:text="@string/intervalo_notificacoes"   				
+   		style="@style/label_padrao"
+   		android:layout_width="wrap_content"/>
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">		
+		<EditText 
+			android:id="@+id/alarme_etIntervalo"
+	   		android:hint="@string/intervalo_minutos"
+	   		android:layout_width="0dip"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="8"
+	   		android:singleLine="true"
+	   		android:inputType="number"/>
+	   	<TextView 
+	   		android:id="@+id/alarme_tvMinutos"
+	   		android:text="@string/minutos"   				
+	   		style="@style/label_padrao"
+	   		android:layout_weight="1"
+	   		android:layout_width="wrap_content"/>
+	</LinearLayout>	   		
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/receber_notificacoes"   				
+   		style="@style/label_padrao"
+   		android:layout_width="wrap_content"/>
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">		
+		<EditText 
+			android:id="@+id/alarme_etDias_antes_vencimento"
+	   		android:hint="@string/quantidade_dias"
+	   		android:layout_width="0dip"
+	   		android:layout_height="wrap_content"
+	   		android:layout_weight="8"
+	   		android:singleLine="true"
+	   		android:inputType="number"/>
+	   	<TextView 
+	   		android:text="@string/dias"   				
+	   		style="@style/label_padrao"
+	   		android:layout_weight="3"
+	   		android:layout_height="wrap_content"
+	   		android:layout_width="0dip"/>
+	</LinearLayout>
+	<TextView 
+	   		android:text="@string/antes_vencimento"   				
+	   		style="@style/label_padrao"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"/>
+	<include layout="@layout/separador"></include>
+   	<CheckBox 
+   		android:id="@+id/alarme_cbAtivo"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="@string/ativo"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout>      
+   

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/realizado_filtro_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+    <include layout="@layout/separador"></include>
+  	<TextView 
+   		android:text="@string/data_transacao"   		
+   		style="@style/label_padrao"/>
+   	<LinearLayout 
+   		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+   		<Button 
+   			android:id="@+id/realizado_filtro_btnMovInicial"
+   			android:layout_width="0dip"
+   			android:layout_height="wrap_content"
+   			android:layout_weight="4"
+   			android:textSize="20dip"/>
+   		<TextView
+   			android:text="@string/a_"
+   			android:layout_width="wrap_content"
+   			android:layout_height="fill_parent"
+   			android:layout_weight="1"
+   			android:textSize="20dip" 
+   			android:gravity="center"/>	
+   		<Button 
+   			android:id="@+id/realizado_filtro_btnMovFinal"
+   			android:layout_width="0dip"
+   			android:layout_height="wrap_content"
+   			android:layout_weight="4"
+   			android:textSize="20dip"/>	
+  	</LinearLayout>
+  	<include layout="@layout/separador"></include>
+  	<include layout="@layout/view_consulta_conta"/> 
+   	<include layout="@layout/separador"></include>
+  	<include layout="@layout/separador"></include>
+    <include layout="@layout/view_consulta_contato"/> 
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_categoria"></include>
+   	<include layout="@layout/separador"></include>
+</LinearLayout>

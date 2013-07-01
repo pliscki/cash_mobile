@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/previsto_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_conta"/>
+   	<include layout="@layout/separador"></include>
+   	<RadioGroup 
+   		android:id="@+id/previsto_rgTipo_movimento"
+   		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+   		<RadioButton 
+   			android:id="@+id/previsto_rbPagar"
+   			android:text="@string/pagar_a"
+   			android:layout_weight="1"/>
+		<RadioButton 
+   			android:id="@+id/previsto_rbReceber"
+   			android:text="@string/receber_de"
+   			android:layout_weight="1"/>   			
+   	</RadioGroup>
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_contato"/> 
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/previsto_tvValPrevisto"
+   		android:text="@string/val_previsto"   				
+   		style="@style/label_padrao"/>
+	<include 
+		layout="@layout/view_box_valores"
+		android:id="@+id/previsto_val_previsto"/>   		
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/previsto_tvVencimento"
+   		android:text="@string/vencimento"   				
+   		style="@style/label_padrao"/>
+	<Button 
+		android:id="@+id/previsto_btn_vencimento"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"/>   		
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_categoria"></include>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/previsto_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/previsto_etDescricao"
+   		android:hint="@string/descricao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_alarme"></include>
+	<include layout="@layout/separador"></include> 
+   	<TextView 
+   		android:id="@+id/previsto_tvEmissao"
+   		android:text="@string/emissao"   				
+   		style="@style/label_padrao"/>
+	<Button 
+		android:id="@+id/previsto_btn_emissao"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"/>
+   	<include layout="@layout/separador"></include>
+   	<LinearLayout 
+   		android:id="@+id/previsto_linear_repetir"
+   		android:orientation="vertical"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+		<TextView 
+	   		android:id="@+id/previsto_repetir"
+	   		android:text="@string/repetir_previsto"   		
+	   		style="@style/label_padrao"/>
+	   	<LinearLayout   		
+	   		android:orientation="horizontal"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content">
+	   		<EditText 
+	   			android:id="@+id/previsto_etRepetir"
+	   			android:layout_width="0dip"
+	   			android:layout_height="match_parent"
+	   			android:layout_weight="4"
+	   			android:maxLength="2"
+	   			android:gravity="right"
+	   			android:inputType="number"/>
+	   		<Button 
+	   			android:id="@+id/previsto_btn_repetir"
+	   			android:layout_width="wrap_content"
+	   			android:layout_height="wrap_content"
+	   			android:layout_weight="6"
+	   			android:textSize="20dip"/>	
+	  	</LinearLayout>  
+  	</LinearLayout>
+	<include layout="@layout/separador"></include>
+	<CheckBox 
+		android:id="@+id/previsto_cbPagamentoAuto"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/pagamento_automatico"/>
+	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout>      
+   

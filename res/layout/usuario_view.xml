@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/usuario_view_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/usuario_view_login"
+   		android:text="@string/login"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/usuario_view_tvLogin"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+   	<TextView 
+   		android:id="@+id/usuario_view_nome_exibicao"
+   		android:text="@string/nome_exibicao"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/usuario_view_tvNome_exibicao"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/usuario_view_login_automatico"
+   		android:text="@string/login_automatico"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/usuario_view_tvLogin_automatico"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/usuario_view_email"
+   		android:text="@string/email"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/usuario_view_tvEmail"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+</LinearLayout> 

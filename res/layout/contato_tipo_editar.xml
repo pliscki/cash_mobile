@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/contato_tipo_linear_2"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/contato_tipo_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/contato_tipo_etDescricao"
+   		android:hint="@string/contato_tipo"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout>      
+   

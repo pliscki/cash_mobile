@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="label_padrao">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">30dip</item>
+        <item name="android:textColor">@color/branco</item>		        
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="label_view">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/azul_escuro</item>		        
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="WindowTitle"
+        parent="@android:style/TextAppearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="DialogWindowTitle"
+        parent="@android:style/TextAppearance">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="WindowTitleBackground">
+        <item name="android:background">@android:drawable/list_selector_background</item>"
+    </style>
+</resources>

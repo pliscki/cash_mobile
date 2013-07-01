@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+	<LinearLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:layout_width="fill_parent" 
+  		android:id="@+id/lay_linear_bar" 
+  		android:layout_height="60dip"   		
+  		android:orientation="horizontal"
+  		style="@android:style/ButtonBar">
+  		<Button 
+	  		android:id="@+id/btnSalvar"
+  			android:text="@string/salvar"
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent"
+  			android:layout_weight="1"  	/>
+   		<Button 
+	   		android:id="@+id/btnCancelar"
+   	    	android:text="@string/cancelar"
+   			android:layout_width="fill_parent"
+   			android:layout_height="fill_parent"
+   			android:layout_weight="1"/>    
+  	</LinearLayout>   		
+</merge>

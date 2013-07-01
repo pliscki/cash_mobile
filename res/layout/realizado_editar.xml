@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/realizado_linear"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_conta"/>
+   	<include layout="@layout/separador"></include>
+   	<RadioGroup 
+   		android:id="@+id/realizado_rgTipo_movimento"
+   		android:orientation="horizontal"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+   		<RadioButton 
+   			android:id="@+id/realizado_rbPagar"
+   			android:text="@string/pago_a"
+   			android:layout_weight="1"/>
+		<RadioButton 
+   			android:id="@+id/realizado_rbReceber"
+   			android:text="@string/recebido_de"
+   			android:layout_weight="1"/>   			
+   	</RadioGroup>
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_contato"/> 
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/val_movimento"   				
+   		style="@style/label_padrao"/>
+   	<include 
+   		layout="@layout/view_box_valores"
+   		android:id="@+id/realizado_box_val_movimento"/>	
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/realizado_tvDataMovimento"
+   		android:text="@string/data_transacao"   				
+   		style="@style/label_padrao"/>
+	<Button 
+		android:id="@+id/realizado_btn_dt_movimento"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textSize="20dip"/>   		
+   	<include layout="@layout/separador"></include>
+   	<include layout="@layout/view_consulta_categoria"></include>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/realizado_tvDescricao"
+   		android:text="@string/descricao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/realizado_etDescricao"
+   		android:hint="@string/descricao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>   	  	  	   	
+</LinearLayout>      
+   

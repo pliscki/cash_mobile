@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/descricao"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvDescricao"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/conta"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvConta"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	
+   	<TextView 
+   		android:text="@string/tipo_movimento"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvTipoMovimento"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>   	
+   	<TextView 
+   		android:text="@string/val_previsto"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvValPrevisto"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+	<include layout="@layout/separador"></include>
+	<TextView 
+   		android:text="@string/contato"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvContato"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+	<include layout="@layout/separador"></include>   		
+	<TextView 
+   		android:text="@string/vencimento"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvDtVencimento"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/categoria"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvCategoria"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/emissao"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvDtEmissao"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/alarme"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvAlarme"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:text="@string/pagamento_automatico"   				
+   		style="@style/label_view"/>
+    <TextView 
+   		android:id="@+id/previsto_view_tvPagamentoAutomatico"   				
+   		style="@style/label_padrao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"/>
+   	<include layout="@layout/separador"></include>
+</LinearLayout> 

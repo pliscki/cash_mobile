@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 	
+   	android:id="@+id/usuar_linear_2"
+   	android:orientation="vertical"
+   	android:layout_width="fill_parent"
+   	android:layout_height="fill_parent">
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/usuar_tvLogin"
+   		android:text="@string/login"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/usuar_etLogin"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:hint="@string/login"
+   		android:singleLine="true"/>
+   	<include layout="@layout/separador"></include>	
+   	<TextView 
+   		android:id="@+id/usuar_tvSenha"
+   		android:text="@string/senha"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/usuar_etSenha"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:inputType="textPassword"
+   		android:singleLine="true"
+   		android:hint="@string/senha"/>
+   	<include layout="@layout/separador"></include>
+   	<TextView 
+   		android:id="@+id/usuar_tvRepetirSenha"
+   		android:text="@string/repetir_senha"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/usuar_etRepetirSenha"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:inputType="textPassword"
+   		android:singleLine="true"
+   		android:hint="@string/redigitar_senha"/>
+   	<include layout="@layout/separador"></include>	   			
+	<TextView 
+   		android:id="@+id/usuar_tvNomExibicao"
+   		android:text="@string/nome_exibicao"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/usuar_etNomExibicao"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:singleLine="true"
+   		android:hint="@string/nome_exibicao"/>
+   	<include layout="@layout/separador"></include>
+   	<CheckBox 
+   		android:id="@+id/usuar_cbLoginAuto"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:text="@string/login_automatico"
+   		android:textSize="20dip"/>
+   	<include layout="@layout/separador"></include>  	  	   	
+   	<TextView 
+   		android:id="@+id/usuar_tvEmail"
+   		android:text="@string/email"   				
+   		style="@style/label_padrao"/>
+   	<EditText 
+   		android:id="@+id/usuar_etEmail"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:inputType="textEmailAddress"
+   		android:singleLine="true"
+   		android:hint="@string/email"/>
+   	<include layout="@layout/separador"></include>
+</LinearLayout>      
+   
